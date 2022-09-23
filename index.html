@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>거기 당신! 안녕하세요 !!!</h1>
+    <h2>여기는 이세계입니다 환영합니다<h2>
+        <div>
+    <span class="myName">모험을 떠나시겠습니까?</span>
+    <button onclick="revealMyInfo('으아ㅇ ㅏㅇ ㅡㅏ (밑으로 이동).', '.myName', 'heartBeat')">승낙</button>
+    <button onclick="revealMyInfo('당신은 죽으셨습니다.','.myName')">거절</button>
+    </div>
+    <div>
+<span class="myJod">당신은 누구야?</span>
+<button onclick="revealMyInfo('견습 개발자 입니다.','.myJod','#23211','slideIn')">물어보기</button>
+    </div> 
+    <div>
+        <span class="myFavorite">무엇을 좋아하시나요?</span>
+        <button onclick="revealMyInfo('코딩입니다', '.myFavorite', '#bgFadeOut')">
+          여쭤보기
+        </button>
+      </div> 
+    
+    
+    
+    <h1 >이세계에 오신것을 다시 한번 환영합니다</h1>
+    <h1 >당신은 엄청난 힘을 손에 넣었습니다!</h1>
+    <h1>
+      서둘러 확인해보세요!
+    </h1>
+    
+        <div>
+            <span class="aboutMe">당신의 정보!!?</span>
+            <button onclick="getMyProfile('이름')">이름</button>
+            <button onclick="getMyProfile('나이')">나이</button>
+            <button onclick="getMyProfile('직업')">직업</button>
+            <button onclick="getMyProfile('좋아하는것')">좋아하는것</button>
+            <button onclick="getMyProfile('특수기술1')">특전능력1</button>
+            <button onclick="getMyProfile('특수기술2')">특전능력2</button>
+            <button onclick="getMyProfile('특수기술3')">특수기술1</button>
+            <button onclick="getMyProfile('특수기술4')">특수기술2</button>
+      </div>
+     <div> <span class="todayLunch">용사의 점심 메뉴는 ?</span>
+      <button onclick="choiceTodayLunch()">선택</button></div>
+      <script src="main.js"></script>
+    
+   
+  </body>
+</html>

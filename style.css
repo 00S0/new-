@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "MabinogiClassicR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --mainColor: #3467f3;
+}
+
+@keyframes bgFadeOut {
+  0% {
+    background-color: var(--mainColor);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    margin-left: 10%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
+}
+@keyframes heartBeat {
+  0% {
+    font-size: 36px;
+  }
+  25% {
+    font-size: 44px;
+  }
+
+  50% {
+    font-size: 36px;
+  }
+
+  75% {
+    font-size: 44px;
+  }
+
+  100% {
+    font-size: 36px;
+  }
+}
+
+div {
+  border: 1px solid black;
+  padding: 8px;
+  margin: auto;
+}
+span {
+  font-family: "MabinogiClassicR";
+  margin-left: 12px;
+  font-size: 36px;
+  color: rgb(57, 235, 81);
+}
+
+h1 {
+  font-family: "MabinogiClassicR";
+  margin-left: 12px;
+  font-size: 36px;
+}
+
+.myName {
+  text-decoration: underline solid var(--mainColor);
+}
+
+h1 {
+  color: aqua;
+}
+h2 {
+  color: rgb(236, 131, 214);
+}
+
+h2 {
+  font-family: "MabinogiClassicR";
+  margin-left: 12px;
+  font-size: 25px;
+}
+button {
+  font-family: "MabinogiClassicR";
+  margin-left: 20px;
+  font-size: 42px;
+  color: #c52b04;
+}
+button {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border: 1px solid rgb(8, 34, 22);
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 24px;
+  font-family: "Pretendard-Regular";
+
+  box-shadow: -4px -4px 0 0 rgb(114, 12, 12);
+  transition: all 0.5s;
+}
+button:hover {
+  box-shadow: -4px -4px 0 0px #fa780a, 4px 4px 0 0px #fa780a;
+}
+button:active {
+  box-shadow: -4px -4px 0 0px rgb(111, 0, 255), 4px 4px 0 0px #c52b04;
+  transition: all 0.1s;
+}
